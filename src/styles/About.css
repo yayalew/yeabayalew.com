@@ -1,0 +1,252 @@
+.about {
+  display: flex;
+  min-width: 80%;
+  max-width: 600px;
+  flex-direction: column;
+  margin: 0 20% 0 10%;
+  min-height: 100vh;
+  align-items: center;
+  text-align: justify;
+}
+
+.header-div {
+  justify-self: flex-start;
+  width: 100%;
+  flex-direction: row;
+}
+
+#about p {
+  color: #B2D2A4;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: justify;
+  line-height: 2rem;
+}
+
+.about-split {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 { 
+  text-align: left;
+  font-size: 3rem;
+  position: relative;
+  display: flex;
+  color: #BED3AB;
+  font-weight: bold;
+}
+
+h1:after {
+  content: '';
+  flex: 1;
+  margin-left: 1rem;
+  margin-right: 20%;
+  height: 2px;
+  background-color: #BED3AB;
+  opacity: 0.5;
+  margin-top: 2rem;
+  border-radius: 20px;
+}
+
+.tech-stack-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+
+#about ul {
+  padding-top: 20px;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(5,minmax(150px,10px));
+  margin-left: -40px;
+}
+
+li {
+  position: relative;
+  padding-left: 20px;
+  font-size: 1.5rem;
+  color: #BED3AB;
+}
+
+li::before{
+  content: "▹ ";
+  color: #4dff00;
+  position: absolute;
+  left: 0;
+}
+
+.tech-stack {
+  color: #4dff00;
+  font-weight: bold;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.profile-pic-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%; 
+  margin: 10% 10% 10% 10%;
+}
+
+.profile-pic {
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 30px;
+  box-shadow: 6px 13px 23px -5px rgba(0,0,0,.46);
+  border: none;
+}
+
+.about-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+}
+
+.about-left {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+  
+/* Styles for devices smaller than 768px */
+@media only screen and (max-width: 600px) {
+  .about {
+    display: flex;
+    min-width: 80%;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    align-items: center;
+    text-align: justify;
+  }
+
+  .about-desc {
+    text-align: justify;
+    min-width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+  }
+
+  .header-div {
+    justify-self: flex-start;
+    width: 100%;
+    flex-direction: row;
+    padding-left: 5%;
+  }
+
+  #about h1 { 
+    text-align: left;
+    font-size: 2rem;
+    position: relative;
+    display: flex;
+    color: #BED3AB;
+    font-weight: bold;
+  }
+  
+  #about h1:after {
+  display: none;
+  }
+
+  .tech-stack-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .tech-stack {
+    color: #4dff00;
+    font-weight: bold;
+  }
+
+   #about .tech-stack-container p {
+    font-size: 1.5rem;
+  }
+
+  #about p {
+    color: #B2D2A4;
+    font-size: 1rem;
+    margin-top: 2rem;
+    /* margin-bottom: 2rem; */
+    text-align: center;
+    /* line-height: 2rem; */
+  }
+
+  .about-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: unset;
+    max-width: 100%;
+  }
+
+  #about ul {
+    /* padding-top: 20px; */
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(50%,10px));
+    width: 100%;   
+  }
+
+  #about li {
+    position: relative;
+    /* padding-left: 20px; */
+    margin-left: 10%;
+    font-size: 1.2rem;
+    color: #BED3AB;
+  }
+  
+  #about li::before{
+    content: "► ";
+    color: #4dff00;
+    position: absolute;
+    font-size: 0.5rem;
+    padding-top: 6%;
+  }
+  
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: unset;
+    padding-left: unset;
+    max-width: 100%;
+  }
+
+  .about-right {
+    display: none; /* Hide the right section on mobile */
+  }
+
+  .about-right .profile-pic-container {
+    display: none; /* Hide the profile pic container on mobile */
+  }
+}
+
