@@ -13,9 +13,7 @@ export default function Experience() {
       </Fade>
       <div className="experience-container">
       <TabPanel />
-
       </div>
-      
       </div>
   );
 }
