@@ -52,15 +52,16 @@ export default function Projects() {
                 <div className='project-card'>
                 <div className="project-header">
                   <div className='terminal-icon'>
-                    <a href={projects[key]["link"]}>
                       <TerminalIcon style={{ fontSize: "2em" }}></TerminalIcon>
-                    </a>
                     </div>
-                    <span className='project-links'>
+                    <div className='project-links'>
                     <a href={projects[key]["open"]}>
                       <LaunchIcon style={{ fontSize: "1.8em" }}></LaunchIcon>
                     </a>
-                  </span>
+                    <a href={projects[key]["open"]}>
+                      <GitHubIcon style={{ fontSize: "1.8em" }}></GitHubIcon>
+                    </a>
+                  </div>
                   </div>
                   
                   <div className='project-title'>
