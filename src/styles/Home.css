@@ -1,0 +1,128 @@
+
+.home {
+  display: flex;
+  min-width: 80%;
+  flex-direction: column;
+  margin: 0 20% 10% 10%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.home-left {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  flex: 2; 
+  align-items: flex-start;
+}
+
+.home-right{
+  flex: 1;
+  display: flex;
+  width: 100%;
+  height: 4%;
+  align-items: center;
+  justify-items: flex-start;
+}
+
+.logo-container {
+  display: flex;
+  width: 40%;
+  height: 40%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  animation: App-logo-spin infinite 8s linear;
+}
+
+p {
+  text-align: justify;
+  color: #B2D2A4;
+  font-size: 1.5rem;
+}
+
+.home-page-image-style {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Styles for devices smaller than 768px */
+@media only screen and (max-width: 600px) {
+  .home {
+    min-height: unset;
+    padding-left: unset;
+    align-items: center;
+    padding-top: 10%;
+    margin-bottom: 30%;
+  }
+
+  .typing {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  #home p {
+    text-align: center;
+    color: #B2D2A4;
+    font-size: 1rem;
+  }
+
+  .home-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .home-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: unset;
+    padding-left: unset;
+    flex-wrap: wrap;
+  }
+
+  .home-right {
+    /* display: none; */
+  }
+
+  .logo-container {
+    width: 100%;
+  }
+  .home-page-image-style {
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+  }
+  
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: translate3d(0, 0, 0) rotateY(0deg);
+  }
+  to {
+    transform: translate3d(0, 0, 0) rotateY(360deg);
+  }
+}

@@ -1,0 +1,23 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+
+
+Forest Green
+#1A4314
+
+Emerald Green
+#02894B
+
+Black
+#06040A
+
+Seafoam Green
+#BED3AB
+
+Cool Gray
+#606462
+
+bright green
+#4dff00
