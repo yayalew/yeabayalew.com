@@ -4,7 +4,7 @@
   max-width: 600px;
   flex-direction: column;
   margin: 0 20% 0 10%;
-  min-height: 100vh;
+  min-height: 80vh;
   align-items: center;
   text-align: justify;
 }
@@ -67,10 +67,10 @@ h1:after {
   margin-left: -40px;
 }
 
-li {
+#about li {
   position: relative;
   padding-left: 20px;
-  font-size: 1.5rem;
+  font-size: 1.6em;
   color: #BED3AB;
 }
 

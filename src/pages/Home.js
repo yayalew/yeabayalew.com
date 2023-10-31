@@ -23,7 +23,7 @@ export default function Home() {
                             </p>
                         </div>
                         <div className='home-button'>
-                        <MDBBtn color='success' size='lg'>Contact me!</MDBBtn>
+                        <MDBBtn color='success' href="mailto:yeabsira282@gmail.com" size='lg'>Contact me!</MDBBtn>
                         </div>
                     </Fade>
                 </div>

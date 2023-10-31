@@ -16,6 +16,14 @@ export default function Projects() {
       link: "https://github.com/yayalew/sndm.com",
       open: "https://www.sndmn.com",
     },
+    "yeabayalew.com": {
+      title: "yeabayalew.com",
+      desc:
+        "A responsive, dynamic portfolio react application that displays my work and experience. ",
+      techStack: "React.js, Node.js",
+      link: "https://github.com/yayalew/yeabayalew.com",
+      open: "https://www.yeabayalew.com",
+    },
     "Newsletter app": {
       title: "Newsletter app",
       desc:
