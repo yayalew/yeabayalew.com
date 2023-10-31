@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import About from './pages/About';
 import Experience from './pages/Experience';
 import SideNav from './components/SideNav';
+import Projects from './pages/Projects';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <About />
       <Experience />
+      <Projects />
       <Footer />
     </div>
     <SideNav />

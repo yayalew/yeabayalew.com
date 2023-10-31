@@ -1,8 +1,6 @@
 import React from 'react';
 import TypingText from '../components/TypingText';
 import "../styles/Home.css";
-
-import "../styles/Home.css"
 import { MDBBtn } from 'mdb-react-ui-kit';
 import logo from '../assets/Y.png'
 import { Fade } from 'react-reveal';
