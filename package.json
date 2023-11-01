@@ -1,6 +1,6 @@
 {
-  "homepage": "https://yayalew.github.io/yeabayalew.com/",
   "name": "yeabayalew-app",
+  "homepage": "https://yayalew.github.io/yeabayalew.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
