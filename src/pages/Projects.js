@@ -58,7 +58,7 @@ export default function Projects() {
                     <a href={projects[key]["open"]}>
                       <LaunchIcon style={{ fontSize: "1.8em" }}></LaunchIcon>
                     </a>
-                    <a href={projects[key]["open"]}>
+                    <a href={projects[key]["link"]}>
                       <GitHubIcon style={{ fontSize: "1.8em" }}></GitHubIcon>
                     </a>
                   </div>
