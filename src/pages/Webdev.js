@@ -24,7 +24,9 @@ export default function Webdev() {
               </div>
             </Fade>
             <div className="webdev-banner">
+            <Fade bottom cascade>
               <SwipeableTextMobileStepper />
+            </Fade>
             </div>
           </div>
         </div>
