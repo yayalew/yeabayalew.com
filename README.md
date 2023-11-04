@@ -6,6 +6,7 @@
 </h1>
 <p align="center">
   The first iteration of <a href="https://yeabayalew.com" target="_blank">yeabayalew</a> built with React.js leveraging Material UI.
+  Inspiration drawn from https://github.com/gazijarin/Gazi.git. 
 </p>
 
 
